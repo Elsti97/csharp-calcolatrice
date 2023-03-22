@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 
     //Polimorfismo, più metodi definiti con lo stesso nome, numero diverso di parametri
-    public class CalcoliHelper
+    public static class CalcoliHelper
     {
         public static int somma(int a, int b)=>(a + b);
         public static double somma(double a, double b)=>(a + b);

@@ -24,6 +24,10 @@ class Program
         Console.WriteLine("Massimo singolo: " + CalcoliHelper.max(2, 3));
         Console.WriteLine("Massimo Doppio: " + CalcoliHelper.max(2.5, 3.5));
 
-        Console.WriteLine("Potenza: " + CalcoliHelper.potenza(5, 1));
+        Console.WriteLine("Potenza 0 alla 0: " + CalcoliHelper.potenza(0, 0));
+        Console.WriteLine("Potenza 0 alla 2: " + CalcoliHelper.potenza(0, 2));
+        Console.WriteLine("Potenza 2 alla 0: " + CalcoliHelper.potenza(2, 0));
+        Console.WriteLine("Potenza 2 alla -3: " + CalcoliHelper.potenza(2, -3));
+        Console.WriteLine("Potenza 2 alla 4: " + CalcoliHelper.potenza(2, 4));
     }
 }
